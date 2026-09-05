@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mes projets</title>
+    <style>
+        /* Styles minimales pour une meilleure lisibilité, non requis mais utile */
+        body { font-family: sans-serif; line-height: 1.6; max-width: 900px; margin: auto; }
+        h1 { border-bottom: 2px solid #eee; padding-bottom: 10px;}
+        h2 { color: #333; border-left: 5px solid blue; padding-left: 10px; margin-top: 25px;}
+        h3 { color: #555; margin-top: 20px;}
+        ul { list-style-type: disc; margin-left: 20px;}
+        li { margin-bottom: 8px;}
+        strong { font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<h1>Mes projets</h1>
+
+<h2>e-Learning</h2>
+
+<h3 id="cern-e-learning-guidelines">CERN E-learning guidelines</h3>
+<p>Ce projet est une documentation que j'ai créée afin de laisser une marche à suivre unique et claire pour la création d'e-learnings et de contenu de formation au CERN.</p>
+
+<h4>Lien</h4>
+<p><a href="https://sukori.github.io/Learning_Guidelines/">Documentation bilingue</a></p>
+<p>Note: cette documentation est publiée sur le gitlab interne du CERN. La présente version public reflète l'état des guidelines telles qu'elles étaient jusqu'à Juin 2023.</p>
+
+<h4>Objectifs</h4>
+<p>Il n'y  avait aucune ligne directrice relative à la création d'e-learnings au CERN. Cette documentation reflète le type de contenu que j'aurais aimé recevoir lors de les premiers jours de travail dans mon poste.</p>
+<p>Cette documentation contenir de l'aide relative au design des modules e-learning SCORM, par exemple créés à l'aide de <strong style="background-color: #eee;">Storyline</strong> ou <strong style="background-color: #eee;">Captivate</strong>. Il y a également des modèles de modules préconstruits et prêts à l'emploi. Enfin, il y a des éléments concernant la création de vidéos à l'aide du <a href="./about.html#cern-2020-2023">studio d'enregistrement</a> que j'ai mis en place pour l'équipe HR-LD.</p>
+
+<h4>Design</h4>
+<p>Cette documentation S'adresse à un public potentiellement non-expert, tout en étant utilisable par des utilisateurs experts.</p>
+<p>Visuellement, le thème <a href="https://squidfunk.github.io/mkdocs-material/">Material</a> de <a href="https://www.mkdocs.org/">MKDOCS</a> est utilisé. Il est simple d'utilisation et est couramment utilisé dans d'autres documentations du CERN.</p>
+
+<h4>Production</h4>
+<p>La documentation est écrite en <a href="https://www.markdownguide.org/">Markdown</a> et publiée sur l'instance <a href="https://about.gitlab.com/">Gitlab</a> interne au réseau du CERN. Markdown est déjà utilisé par l'équipe HR-LD du CERN et Gitlab est la plateforme standard pour déployer une telle documentation au CERN.</p>
+<p>La production de cette documentation a été effectuée dans le respect des outils déjà en place et des connaissances préalables des utilisateurs.</p>
+
+<h3 id="cern-data-privacy">CERN Data Privacy</h3>
+<p>Il s'agit à l'heure actuelle du seul module que j'ai produit qui ne contienne pas d'informations confidentielles et pour lequel j'ai reçu l'autorisation de publier le contenu ici.</p>
+
+<h4>Liens</h4>
+<ul>
+    <li><a href="./portfolio/data-Privacy-CERN-EN/story.html">Version anglaise</a></li>
+    <li><a href="./portfolio/data-Privacy-CERN-FR/story.html">Version française</a></li>
+</ul>
+
+<h4>Objectifs</h4>
+<p>Le but de cet e-Learning est de sensibiliser l'ensemble du personnel du CERN (plus de 15'000 personnes) aux règles de protection des données spécifiques à l'orrganisation. Le CERN édicte ses propres règles et le <a href="https://privacy.web.cern.ch/office-data-privacy-odp">bureau de la protection des données du CERN</a> (ODP) a commandé ce module e-learning.</p>
+<p>Ce e-Learning est un module obligatoire pour toute personne travaillant sur le site du CERN.</p>
+
+<h4>Design</h4>
+<p>Le code de couleur était imposé par le <strong>bureau de la protection des données du CERN</strong>. Le module e-Learning s'inscit dans une campagne de communication qui a un branding déjà défini.</p>
+<p>Le module étant obligatoire pour plus de 15'000 personnes, il se devait d'être court. La durée visée était 15 minutes. Mis bout à bout, les pistes audio durent environ 11 minutes. Les utilisateurs mettent entre 10 et 15 minutes pour compléter le module, selon les données récoltées dans le <strong>LMS</strong>.</p>
+
+<h4>Production</h4>
+<p>Le cours a été créé avec <strong style="background-color: #eee;">Articulate Storyline 3</strong>. Les éléments graphiques ont été produits à l'aide d'<strong style="background-color: #eee;">inkscape</strong> et l'audio a été enregistré avec mon micro *Shure SM7B* et le logiciel <strong style="background-color: #eee;">Audacity</strong>. J'ai enregistré moi-même dans les deux langues.</p>
+<p>Compte tenu de l'enjeu du projet et du nombre de personnes impliquées en tant qu'experts et relecteurs, le projet a duré 11 mois jusqu'à la mise en ligne définitive. En Novembre 2023, un an après la mise en ligne la version publiée n'a pas encore été mise à jour et est toujours d'actualité.</p>
+
+<h4>Post mortem</h4>
+<p>Le module a reçu des retours globalement positifs. Peu de bugs ont été rapportés et sont principalement liés au navigateur <strong>safari</strong> sur les machines *Mac*. 95% du personnel du CERN a complété le cours. Les utilisateurs restants sont soit des nouveaux arrivants, soit recevront des rappels jusqu'à complétion du module.</p>
+<p>Etant donné qu'il y avait plus de 10 personnes impliquées dans la conception et la relecture du module, l'effort à fournir pour terminer le développement du module s'est étalé sur 11 mois et a fait l'objet de discussions minutieuses.</p>
+<p>Le produit final correspond à la demande de l'ODP du CERN et est pleinement fonctionnel.</p>
+
+<h2>Github</h2>
+<p>Vous trouverez des projets personnels sur mon repository <a href="https://github.com/Sukori">github.com/Sukori</a>.</p>
+
+<h3>Technophil.dev</h3>
+<p>Le présent site web, qui me sert de carte de visite ainsi que d'expérimentation sur <strong>mkdocs</strong> et l'écriture de documentation en <strong>markdown</strong>.</p>
+
+<h3>azmirabajra/Aphasie</h3>
+<p>Projet de développement en groupe d'un jeu vidéo pédagogique réalisé durant le master MALTT (UNIGE). Ce jeu à été conçu à l'aide de Clickteam fusion et est à destination de personnes souffrant d'aphasie.</p>
+
+<h3>tutos-live-chat</h3>
+<p>Application de chat en direct reposant sur la technologie `Node.js` supportée notamment par la librairie `socket.io`. Projet réalisé durant le master MALTT (UNIGE).</p>
+
+<h3>C-experiments</h3>
+<p>Je n'ai que très peu d'occasion de me servir professionellement de mes connaissance en programmation `C`. Ce repo est un moyen pour moi de rafraichir mes connaissance et les développer. Je me suis servi du site <a href="https://projecteuler.net/">Project Euler</a> pour me trouver des exercises.</p>
+
+<h3>Csharp-experiments</h3>
+<p>Tout comme pour `C`, je n'ai pas l'occation de me servir de `C#` de manière professionnelle, et encore moins en dehors du moteur de jeu <strong>Unity</strong>. J'ai donc continué de résoudre les problèmes de *Project Euler* en `C#`.</p>
+
+<h2>Game jams</h2>
+<p>Une game jam est un évènement similaire à un hackathon. Durant une durée limitée, le plus souvent 48 heures, les participants doivent créer un jeu basé sur un thème révélé au début de la game jam. Le support est libre: jeu de société, jeu vidéo, réalité augmentée, ...</p>
+
+<p>J'ai participé à plusieurs éditions de la <a href="https://globalgamejam.org/">Global Game Jam</a> et à plusieurs éditions de l'<a href="https://epicgamejam.com/">Epic Game Jam</a>.</p>
+
+<h3>Beetroot Kong</h3>
+<p><a href="https://globalgamejam.org/2023/games/beetroot-cong-4">Page du projet</a></p>
+<p>Un jeu de plateforme reprenant les bases du premier jeu "Donkey Kong" sur Nintendo Entertainment System (1983). Terminez le parcours 4 fois en évitant les éléments radioactifs pour gagner le jeu.</p>
+<p>Développé avec le moteur de jeu <strong>Unity</strong></p>
+<p>Réalisé en <strong>48 heures</strong> lors de la **Global Game Jam 2023** à l'HEPIA Genève (Suisse).</p>
+<p>J'ai dessiné les personnages à l'aide d'<strong>infinite painter</strong> sur <strong>tablette Android</strong>.</p>
+
+<h3>Brikolaïka</h3>
+<p><a href="https://globalgamejam.org/2020/games/brico-la%C3%AFka-0">Page du projet</a></p>
+<p>Un jeu de survie dans une station spatiale. Utilisez des outils pour réparer la station et survivre le plus longtemps possible. Mouvements 0G et outils volant partout.</p>
+<p>Développé avec le moteur de jeu <strong>Unity</strong>.</p>
+<p>Réalisé en <strong>48 heures</strong> lors de la **Global Game Jam 2020** à l'HEPIA Genève (Suisse).</p>
+<p>J'ai réalisé les modèles 3D et les textures des outils et des environnements avec <strong>Blender</strong>.</p>
+
+<h3>From Lapinou with Pain</h3>
+<p><a href="https://epicgamejam.com/games/lapinou-pain">Page du projet</a></p>
+<p>Un jeu de réflexion dans lequel vous contrôlez Lapinou, un petit lapin tout rose et tout mignon, dont le monde a été envahi par le dieu maléfique *Boringness*.</p>
+<p>Le jeu vidéo a été réalisé en <strong>45 heures</strong> lors de l'**Epic Game Jam** (Neuchâtel, Suisse) avec 5 autres personnes en utilisant <strong>Unreal engine 4</strong>.</p>
+<p>J'ai réalisé le modèle 3D et les textures du lapin dans <strong>Blender</strong>. J'ai dessiné les autres images liées au lore avec <strong>Krita</strong>.</p>
+
+<h3>Home Sweet Home (Premium Bunker Edition)</h3>
+<p><a href="https://globalgamejam.org/2019/games/home-sweet-home-premium-bunker-edition">Page du projet</a></p>
+<p>Un jeu de survie où vous êtes piégé dans votre propre bunker après l'explosion d'une bombe dans votre quartier. Gérez vos ressources et votre énergie pour vivre le plus longtemps possible.</p>
+<p>Développé avec <strong>Unreal Engine 4</strong>.</p>
+<p>Réalisé en <strong>48 heures</strong> à HEPIA Genève (Suisse) durant la **Global Game Jam**.</p>
+<p>J'ai réalisé la carte et les objets de l'environnement avec <strong>Blender</strong>.</p>
+
+<h3>Holy Duck!</h3>
+<p><a href="https://www.epicgamejam.com/games/holy-duck">Page du projet</a></p>
+<p>Un jeu de plateformes *metroidvania* où une petite canne doit acquérir de nouveaux pouvoirs pour rejoindre son ami panda.</p>
+<p>Réalisé en <strong>45 heures</strong> à l'**Epic Game Jam 5**, Neuchâtel (Suisse) avec <strong>Godot Engine</strong>.</p>
+<p>J'ai créé tous les sprites pour les plateformes et les environnements en utilisant <strong>Gimp</strong>. J'ai également conçu la première zone du jeu.</p>
+
+<h3>Tjugum Over and Out</h3>
+<p><a href="https://globalgamejam.org/2018/games/tjugum-over-and-out">Page du projet</a></p>
+<p>Une histoire en *point and click* dans une société dystopique où une IA contrôle tout ce que les gens font.</p>
+<p>Réalisé en <strong>48 heures</strong> à HEPIA Genève (Suisse) durant la **Global Game Jam** avec <strong>Godot Engine</strong>.</p>
+<p>J'ai réalisé tous les fonds d'écran en utilisant <strong>Blender</strong> pour le design et <strong>Gimp</strong> pour la coloration.</p>
+
+<h3>Epic Space Turbo Panic: Do your spacemarine job or just blame the others!</h3>
+<p><a href="https://www.epicgamejam.com/games/epic-space-turbo-panic-do-your-spacemarine-job-or-just-blame-others">Page du projet</a></p>
+<p>Un *party game* où les joueurs doivent maintenir leur vaisseau spatial en un seul morceau jusqu'à ce qu'il atteigne une planète sûre.</p>
+<p>Réalisé en <strong>45 heures</strong> à l'**Epic Game Jam 4**, Neuchâtel (Suisse) avec <strong>Unity Game Engine</strong></p>
+<p>J'ai créé tous les objets de l'arrière-plan et les *nuages de poussière* en utilisant <strong>Gimp</strong>. J'ai également conçu le vaisseau spatial.</p>
+
+</body>
+</html>
+
