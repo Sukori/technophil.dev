@@ -1,0 +1,15 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justified;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        padding-left: 15vw;
+        padding-right: 15vw;
+    }
+}
